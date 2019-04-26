@@ -191,11 +191,11 @@ if (!isset($_SESSION["logged_in"]) || $_SESSION["logged_in"] == false) {
                             <div class="card-body">
                                 <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">
-                                        <a href="delete.php?file=<?php echo $image ?>" name="button" data-lightbox="image-1" class="btn btn-sm btn-outline-secondary confirmDeleteOne"><i class="far fa-trash-alt"></i> Slet </a>
+                                        <a href="delete.php?file=<?php echo $image ?>" name="button" class="btn btn-sm btn-outline-secondary confirmDeleteOne"><i class="far fa-trash-alt"></i> Slet </a>
 
                                         <a name="button" href="download.php?file=<?php echo $image ?>" class="btn btn-sm btn-outline-secondary"><i class="fas fa-file-download"></i> Download </a>
 
-                                        <a href="<?php echo $image ?>" name="button" data-lightbox="image-1" class="btn btn-sm btn-outline-secondary"><i class="fas fa-eye"></i> View </a>
+                                        <a href="<?php echo $image ?>" name="button" data-lightbox="imageSet" class="btn btn-sm btn-outline-secondary"><i class="fas fa-eye"></i> View </a>
 
                                     </div>
                                 </div>
