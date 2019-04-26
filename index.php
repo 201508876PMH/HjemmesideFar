@@ -25,7 +25,9 @@ if (isset($_SESSION["logged_in"]) && $_SESSION["logged_in"] == true) {
 	<meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
 	<meta name="generator" content="Jekyll v3.8.5">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-	<title>Floating labels example · Bootstrap</title>
+	<title>JH · Billede album</title>
+    <link rel="icon" href="images/favicon.ico">
+
 
 	<!-- Bootstrap core CSS -->
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
