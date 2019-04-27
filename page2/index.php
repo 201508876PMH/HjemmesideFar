@@ -137,7 +137,7 @@ if (!isset($_SESSION["logged_in"]) || $_SESSION["logged_in"] == false) {
                         1 => "File(s) is not an image.",
                         2 => "Sorry, one or more files already exists.",
                         3 => "Sorry, one or more of your files are too large.",
-                        4 => "Sorry, only JPG, JPEG, PNG & GIF are allowed.",
+                        4 => "Sorry, only JPG, JPEG, PNG, PDF & GIF files are allowed.",
                         5 => "Sorry, there was an error uploading your file(s).",
                     );
 
